@@ -1,0 +1,38 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/.next-build/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+*.log
+
+# env files (this project intentionally has none committed)
+.env*
+
+# typescript
+*.tsbuildinfo
+
+# local tooling / sandbox artifacts (not part of the website)
+/.zscripts/
+/Caddyfile
+/examples/
+/skills/
+/tests/
+/download/
+/scripts/
+/prisma/
+/db/
+/agent-ctx/
+/build-check/
+/worklog.md
